@@ -1,0 +1,165 @@
+/* 万能淘客浏览器插件CSS样式 */
+.WNTK-plugin .f-cb:after, .WNTK-plugin .f-cbli li:after { display:block; clear:both; visibility:hidden; height:0; overflow:hidden; content:"."; }
+.WNTK-plugin .f-cb, .WNTK-plugin .f-cbli li { zoom:1; }
+.WNTK-plugin .f-ib { display:inline-block; *display:inline; *zoom:1; }
+.WNTK-plugin .f-dn { display:none; }
+.WNTK-plugin .f-db { display:block; }
+.WNTK-plugin .f-fl { float:left; }
+.WNTK-plugin .f-fr { float:right; }
+.WNTK-plugin .f-pr { position:relative; }
+.WNTK-plugin .f-prz { position:relative; zoom:1; }
+.WNTK-plugin .f-oh { overflow:hidden; }
+.WNTK-plugin .f-ff0 { font-family:arial, \5b8b\4f53; }
+.WNTK-plugin .f-ff1 { font-family:"Microsoft YaHei", \5fae\8f6f\96c5\9ed1, arial, \5b8b\4f53; }
+.WNTK-plugin .f-fs1 { font-size:12px; }
+.WNTK-plugin .f-fs2 { font-size:14px; }
+.WNTK-plugin .f-fs3 { font-size:16px; }
+.WNTK-plugin .f-fs4 { font-size:18px; }
+.WNTK-plugin .f-fwn { font-weight:normal; }
+.WNTK-plugin .f-fwb { font-weight:bold; }
+.WNTK-plugin .f-tal { text-align:left; }
+.WNTK-plugin .f-tac { text-align:center; }
+.WNTK-plugin .f-tar { text-align:right; }
+.WNTK-plugin .f-taj { text-align:justify; text-justify:inter-ideograph; }
+.WNTK-plugin .f-vam, .WNTK-plugin .f-vama * { vertical-align:middle; }
+.WNTK-plugin .f-wsn { word-wrap:normal; white-space:nowrap; }
+.WNTK-plugin .f-pre { overflow:hidden; text-align:left; white-space:pre-wrap; word-wrap:break-word; word-break:break-all; }
+.WNTK-plugin .f-wwb { white-space:normal; word-wrap:break-word; word-break:break-all; }
+.WNTK-plugin .f-ti { overflow:hidden; text-indent:-30000px; }
+.WNTK-plugin .f-ti2 { text-indent:2em; }
+.WNTK-plugin .f-lhn { line-height:normal; }
+.WNTK-plugin .f-tdu, .WNTK-plugin .f-tdu:hover { text-decoration:underline; }
+.WNTK-plugin .f-tdn, .WNTK-plugin .f-tdn:hover { text-decoration:none; }
+.WNTK-plugin .f-toe { overflow:hidden; word-wrap:normal; white-space:nowrap; text-overflow:ellipsis; }
+.WNTK-plugin .f-csp { cursor:pointer; }
+.WNTK-plugin .f-csd { cursor:default; }
+.WNTK-plugin .f-csh { cursor:help; }
+.WNTK-plugin .f-csm { cursor:move; }
+.WNTK-plugin .f-usn { -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; -o-user-select:none; user-select:none; }
+.WNTK-plugin .f-cl: { clear:both }
+.WNTK-plugin .red, .WNTK-plugin .red a, .WNTK-plugin a.red, #detail .WNTK-plugin .red, #detail .WNTK-plugin .red a, #detail .WNTK-plugin a.red { color:red; }
+.WNTK-plugin .red a:hover, .WNTK-plugin a.red:hover, #detail .WNTK-plugin .red a:hover, #detail .WNTK-plugin a.red:hover { color:red; }
+.WNTK-plugin .green, .WNTK-plugin .green a, .WNTK-plugin a.green, #detail .WNTK-plugin .green, #detail .WNTK-plugin .green a, #detail .WNTK-plugin a.green { color:green; }
+.WNTK-plugin .green a:hover, .WNTK-plugin a.green:hover, #detail .WNTK-plugin .green a:hover, #detail .WNTK-plugin a.green:hover { color:red; }
+.WNTK-plugin .blue, .WNTK-plugin .blue a, .WNTK-plugin a.blue, #detail .WNTK-plugin .blue, #detail .WNTK-plugin .blue a, #detail .WNTK-plugin a.blue { color:blue; }
+.WNTK-plugin .blue a:hover, .WNTK-plugin a.blue:hover, #detail .WNTK-plugin .blue a:hover, #detail .WNTK-plugin a.blue:hover { color:red; }
+.WNTK-plugin .blue-link, .WNTK-plugin .blue-link a, .WNTK-plugin a.blue-link, #detail .WNTK-plugin .blue-link, #detail .WNTK-plugin .blue-link a, #detail .WNTK-plugin a.blue-link { color:#008EF0; }
+.WNTK-plugin .blue-link a:hover, .WNTK-plugin a.blue-link:hover, #detail .WNTK-plugin .blue-link a:hover, #detail .WNTK-plugin a.blue-link:hover { color:#008EF0; }
+
+/* 插件样式 */
+.WNTK-plugin .icon,.WNTK-plugin .WNTK-plugin-logo,.WNTK-plugin .WNTK-plugin-sub,.WNTK-plugin .WNTK-plugin-b .WNTK-plugin-l,.WNTK-plugin .WNTK-plugin-b .WNTK-plugin-search input[type="submit"]{ background:url(http://img.wntaoke.com/sucai/tksqbg.png) no-repeat;}/*综合*/
+i.WNTK-plugin-icdown{ background-position:0px -89px; display:inline-block; width:16px; height:16px; vertical-align:middle;}
+i.WNTK-plugin-icup{ background-position:-23px -89px; display:inline-block; width:16px; height:16px; vertical-align:middle;}
+i.WNTK-plugin-icstable{ background-position:-54px -89px; display:inline-block; width:16px; height:16px; vertical-align:middle;}
+i.WNTK-plugin-ictag{ background-position:-43px -50px; display:inline-block; width:18px; height:18px; vertical-align:middle; margin-right:4px;}
+i.WNTK-plugin-icmall{ background-position:-75px -50px; display:inline-block; width:16px; height:16px; vertical-align:middle; margin-right:4px;}
+
+.WNTK-plugin i.icon { width:16px; height:17px; display:inline-block; margin-right:3px; vertical-align:middle }
+.WNTK-plugin i.icon.up {background-position: -149px -50px;color:#ef523e}
+.WNTK-plugin i.icon.down {background-position: -198px -50px;color:#50b149}
+.WNTK-plugin i.icon.bottom {background-position: -168px -50px;color:#5c5c5c}
+.WNTK-plugin i.icon.stable {background-position: -217px -50px;color:#5c5c5c}
+.WNTK-plugin i.icon.stability {background-position: -129px -50px;color:#5c5c5c}
+.WNTK-plugin i.icon.ty{ background-position:-75px -51px;}
+.WNTK-plugin i.icon.qq{ background-position:-45px -51px;}
+.WNTK-plugin i.icon.count{ background-position:-104px -51px;}
+
+.WNTK-plugin i.icon.setup{ background-position:0 -80px; margin-right:0; }
+
+.WNTK-plugin{ width:100%; height:32px; margin: 10px 0px; position: relative; z-index: 9999; }
+.WNTK-plugin ul li{float: left;position: relative; background-color:#ffffff;}
+.WNTK-plugin .WNTK-plugin-logo{ width:80px; height:32px; background-position:0 0; cursor:pointer; border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
+.WNTK-plugin .WNTK-plugin-clickInit{text-align: center;line-height: 30px;background-image: none;text-decoration: none;
+border-image-source: initial;border-image-slice: initial;border-image-width: initial;border-image-outset: initial;
+border-image-repeat: initial;background-color: rgb(255, 255, 255);cursor: pointer;color: rgb(90, 90, 90);padding: 0px 8px;
+background-repeat: no-repeat;border-width: 1px 1px 1px;border-style: solid solid solid none;
+border-color: rgb(227, 227, 227) rgb(227, 227, 227) rgb(227, 227, 227);
+    border-left: none; width:80px; height:30px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; }
+.WNTK-plugin .WNTK-plugin-ainside{height: 30px; padding:0 8px;display: block;position: relative;text-align: center;line-height: 30px;background-image: none;background-repeat: no-repeat;text-decoration: none; color:#5a5a5a !important; border:1px solid #e3e3e3; border-left:none; background-color:#ffffff; cursor:pointer}
+.WNTK-plugin .WNTK-plugin-trendbox, .WNTK-plugin .WNTK-plugin-lmbox, .WNTK-plugin .WNTK-plugin-queqiaobox, .WNTK-plugin .WNTK-plugin-setupbox{background-image: none;width: 580px; position: absolute;border: 1px solid #e3e3e3;background-color: #fff;border-radius: 5px;border-top-left-radius: 0;border-bottom: 3px solid #FC412D;left: -1px;top: 30px;box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); text-align: left;display:none;z-index: 9997; overflow:auto; }
+.WNTK-plugin .WNTK-plugin-setupbox{width: 300px;}
+.WNTK-plugin .WNTK-plugin-lm .WNTK-plugin-price, .WNTK-plugin .WNTK-plugin-queqiao .WNTK-plugin-price{ color:#fc412d; margin-left:2px; font-weight:bold }
+.WNTK-plugin .WNTK-plugin-queqiao .WNTK-plugin-queqiaobox, .WNTK-plugin .WNTK-plugin-setup .WNTK-plugin-setupbox {left:auto;right:0;border-top-left-radius:5px;border-top-right-radius:0;}
+.WNTK-plugin .WNTK-plugin-open .WNTK-plugin-ainside{ height:29px; border-bottom:none; border-top:2px solid #FC412D; z-index:9998; line-height:28px;}
+.WNTK-plugin .WNTK-plugin-open .WNTK-plugin-trendbox, .WNTK-plugin .WNTK-plugin-open .WNTK-plugin-lmbox, .WNTK-plugin .WNTK-plugin-open .WNTK-plugin-queqiaobox, .WNTK-plugin .WNTK-plugin-open .WNTK-plugin-setupbox{ -webkit-animation:0.2s ease-out backwards;-moz-animation:0.2s ease-out backwards;-ms-animation:0.2s ease-out backwards;animation:0.2s ease-out backwards; -webkit-animation-name:fadeinB;-moz-animation-name:fadeinB;-ms-animation-name:fadeinB;animation-name:fadeinB; display:block;}
+@-webkit-keyframes fadeinB{
+    0%{opacity:0;-webkit-transform:translateY(100px)}
+    100%{opacity:1;-webkit-transform:translateY(0)}
+}
+@-moz-keyframes fadeinB{
+    0%{opacity:0;-moz-transform:translateY(100px)}
+    100%{opacity:1;-moz-transform:translateY(0)}
+}
+@-ms-keyframes fadeinB{
+    0%{opacity:0;-ms-transform:translateY(100px)}
+    100%{opacity:1;-ms-transform:translateY(0)}
+}
+@keyframes fadeinB{
+    0%{opacity:0;transform:translateY(100px)}
+    100%{opacity:1;transform:translateY(0)}
+}
+
+#WNTK-plugin-eventtg,#WNTK-plugin-tg{}
+.WNTK-plugin .WNTK-plugin-sub{height: 30px; padding:0 8px;display: block;position: relative;text-align: center;line-height: 30px;background-image: none;background-repeat: no-repeat;text-decoration: none; color:#5a5a5a !important; border:1px solid #e3e3e3; border-left:none; background-color:#ffffff; cursor:pointer}
+
+
+.WNTK-plugin .WNTK-plugin-sub b{font-weight:bold; color:#F00;}
+.WNTK-plugin .WNTK-loading { text-align:center; margin:120px auto; }
+.WNTK-plugin .WNTK-loading .WNTK-loading-img { clear:both; width:60px; height:42px; margin:0 auto; display: block; background:url(https://img.alicdn.com/imgextra/i3/11531341/TB2GKvrmVXXXXXfXpXXXXXXXXXX_!!11531341.gif) no-repeat; }/*加载图标orange*/
+.WNTK-plugin .WNTK-loading .WNTK-loading-tip { clear:both; text-align: center }
+
+#WNTK-plugin-container { overflow:hidden; min-width:550px; height:300px; padding:20px 15px; }
+#WNTK-plugin-queqiao-list,#WNTK-plugin-lm-list,#WNTK-plugin-setup-list { padding:20px; height:300px; overflow:auto }
+#WNTK-plugin-queqiao-list::-webkit-scrollbar, #WNTK-plugin-lm-list::-webkit-scrollbar { width: 10px; height: 10px; }
+#WNTK-plugin-queqiao-list::-webkit-scrollbar-thumb, #WNTK-plugin-lm-list::-webkit-scrollbar-thumb { background-color:#CCC; }
+#WNTK-plugin-queqiao-list::-webkit-scrollbar-track, #WNTK-plugin-lm-list::-webkit-scrollbar-track { background-color: #F5F5F5; }
+#WNTK-plugin-queqiao-list::-webkit-scrollbar-thumb:hover, #WNTK-plugin-lm-list::-webkit-scrollbar-thumb:hover { background-color:#999; }
+
+.WNTK-plugin .WNTK-plugin-b{ padding:15px 20px; border-bottom:1px solid #E6E6E6; position:relative; z-index:9; }
+.WNTK-plugin .WNTK-plugin-b.top-shadow { border-bottom:1px solid #FFF; box-shadow: 0 1px 3px rgba(0,0,0,.2); }
+.WNTK-plugin .WNTK-plugin-b .WNTK-plugin-l{ float:left; width:153px; height:35px; background-position:-83px 2px; }
+.WNTK-plugin .WNTK-plugin-b .WNTK-plugin-p{ float:left; border-left:1px solid #e3e3e3; padding-left:20px; margin-left:20px; margin-top:-2px; }
+.WNTK-plugin .WNTK-plugin-b .WNTK-plugin-p p span{ color:#ccc; margin:0 8px;}
+.WNTK-plugin .WNTK-plugin-b .WNTK-plugin-p p em{ font-weight:bold;}
+.WNTK-plugin .WNTK-plugin-b .WNTK-plugin-p p i{ color:#999; font-weight:normal; font-style:normal;}
+.WNTK-plugin .WNTK-plugin-b .WNTK-plugin-search{ float:right; margin-top:4px; }
+.WNTK-plugin .WNTK-plugin-b .WNTK-plugin-search input[type="text"]{ float:left; border:1px solid #e3e3e3; width:180px; height:28px; line-height:28px; color:#999; vertical-align:middle; border-right:none; padding:0px 5px; outline:none;}
+.WNTK-plugin .WNTK-plugin-b .WNTK-plugin-search input[type="submit"]{ float:left; border:none; outline:none; width:30px; height:30px; overflow:hidden; background-position:0 -127px; vertical-align:middle; cursor:pointer;}
+
+.WNTK-plugin .WNTK-ad { margin-top:15px; }
+.WNTK-plugin-update { width: 100%; overflow:hidden }
+.WNTK-plugin-update .update-box { display:block; height: 30px; line-height:30px; color:#f00; padding:0 20px; border: 1px solid #ffd16f; background-color: #feffe6; }
+
+/* 表格 */
+.WNTK-plugin .m-table { table-layout:fixed; width:100%; margin-top:15px; }
+.WNTK-plugin .m-table i { width:16px; height:11px; margin-left:5px; display:inline-block; background:url(https://img.alicdn.com/imgextra/i4/11531341/TB2dP_emVXXXXbBXpXXXXXXXXXX_!!11531341.gif) no-repeat; vertical-align:middle; }/*加载中gray*/
+.WNTK-plugin .m-table th, .WNTK-plugin .m-table td { padding:8px 2px; border:1px solid #e3e3e3; text-align: center; }
+.WNTK-plugin .m-table th { font-weight:bold; border-bottom:solid 1px #e3e3e3; background:#F9F9F9; background:-webkit-gradient(linear,left top,left bottom,from(#FEFEFE),to(#F5F5F5));background:-moz-linear-gradient(top,#FEFEFE,#F5F5F5);background:-o-linear-gradient(top,#FEFEFE,#F5F5F5);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FEFEFE',endColorstr='#F5F5F5');zoom:1; cursor:pointer; }
+.WNTK-plugin .m-table tbody tr:nth-child(2n) { background:#FAFAFA; }
+.WNTK-plugin .m-table tbody tr:hover { background:#F2F2F2; }
+.WNTK-plugin .m-table tbody tr:hover > td { background-color:#F2F2F2; }
+.WNTK-plugin .m-table tbody .login-btn {display:inline-block;width:100%;padding:6px 0;font-size:14px;background-color:#e6e6e6;border-color:#e6e6e6;cursor:pointer;text-align:center;font-weight:400;cursor:pointer;white-space:nowrap;vertical-align: middle;*zoom:1;-webkit-transition:background-color .1s linear;-moz-transition:background-color .1s linear;-o-transition:background-color .1s linear;transition:background-color .1s linear;}
+.WNTK-plugin .m-table tbody .login-btn:hover, .WNTK-plugin .m-table tbody .login-btn:active{color:#333;background-color:#c7c7c7;border-color:#c7c7c7}
+
+/* 列表 */
+.WNTK-plugin .detail { width:100%; height:50px; margin-bottom:5px; }
+.WNTK-plugin .commission { width:220px; height:100%; }
+.WNTK-plugin .commission .label { width:65px; height:25px; line-height:25px; }
+.WNTK-plugin .commission .commission_rate { color:#fc412d; font-size:15px; width:150px; height:25px; line-height:25px; font-weight:bold; }
+.WNTK-plugin .commission .tlink { width:150px; height:25px; line-height:25px; text-decoration: none; }
+.WNTK-plugin .commission .tlink a { margin-right:5px; }
+.WNTK-plugin .commission .true-rmb { font-size:12px; color:#333; font-weight:normal }
+.WNTK-plugin .tuiguang_info { width:221px; height:100%; }
+.WNTK-plugin .tuiguang_info li { float:none; }
+.WNTK-plugin .tuiguang_info .jiaoyi { width:110px; height:50px; border-right: 1px solid #e3e3e3; float:left; }
+.WNTK-plugin .tuiguang_info .yongjin { width:110px; height:50px; float:left; }
+.WNTK-plugin .tuiguang_info .count { font-size:15px; height:25px; line-height: 25px; font-weight:bold; }
+.WNTK-plugin .tuiguang_info .danwei { height:25px; line-height: 25px; }
+.WNTK-plugin .WNTK-footer { height:55px; line-height:55px; color:#999; border-top:1px solid #E6E6E6; position:relative; }
+.WNTK-plugin .WNTK-footer.top-shadow { border-top:1px solid #FFF; box-shadow: 0 -2px 3px rgba(0,0,0,.1); opacity: .95; filter: alpha(opacity=95); }
+.WNTK-plugin .WNTK-footer ul.f-fl { padding:0 20px; }
+.WNTK-plugin .WNTK-footer ul.f-fl li { float:left; margin-right:20px; }
+.WNTK-plugin .WNTK-footer ul.f-fl li.last { margin-right:0; }
+
+#WNTK-plugin-yhq{ position:absolute;right:4%;bottom:10%;z-index:999;display:none;}
+#WNTK-plugin-yhq i{font-size:20px;}
